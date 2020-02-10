@@ -18,17 +18,17 @@
 
 [What Is ReactJS and Why Should We Use ReactJS?](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)를 읽어보면 리액트를 사용하는 이유는 다음과 같습니다.
 
-* Simplicity
+- Simplicity
   > ReactJS is just simpler to grasp right away. The component-based approach, well-defined lifecycle, and use of just plain JavaScript make React very simple to learn, build a professional web (and mobile applications), and support it. React uses a special syntax called JSX which allows you to mix HTML with JavaScript. This is not a requirement; Developer can still write in plain JavaScript but JSX is much easier to use.
-* Easy to learn
+- Easy to learn
   > Anyone with a basic previous knowledge in programming can easily understand React while Angular and Ember are referred to as ‘Domain specific Language’, implying that it is difficult to learn them. For react you just need basic knowledge of CSS and HTML.
-* Native Approach
+- Native Approach
   > React can be used to create mobile applications (React Native). And React is a diehard fan of reusability, meaning extensive code reusability is supported. So at the same time we can make IOS, Android and Web application.
-* Data Binding
+- Data Binding
   > React uses one-way data binding and an application architecture called Flux controls the flow of data to components through one control point – the dispatcher. It's easier to debug self-contained components of large ReactJS apps.
-* Performance
+- Performance
   > React does not offer any concept of a built-in container for dependency. You can use Browserify, Require JS, EcmaScript 6 modules which we can use via Babel, ReactJS-di to inject dependencies automatically.
-* Testability
+- Testability
   > ReactJS applications are super easy to test. React views can be treated as functions of the state, so we can manipulate with state we pass to the ReactJS view and take a look at the output and triggered actions, events, functions, etc.
 
 리액트는 웹 개발에 있어서 복잡한 웹 UI로 구성된 프론트엔드 어플리케이션을 용이하게 개발하고 관리하기 위해 등장했습니다. 지속적으로 변경되는 하나의 데이터가 있다고 할 때 그 데이터가 변경됨과 동시에 매번 웹의 UI를 변경해야 한다면 정말 끔찍할 것입니다. 리액트는 이런 상황에서 가장 유용하게 사용됩니다.

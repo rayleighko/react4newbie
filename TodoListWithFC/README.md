@@ -20,3 +20,14 @@
 
 - useState
 - useEffect
+
+### tags
+
+이 프로젝트의 순서는 tags로 나타냅니다.
+
+- 01_project_start
+- 02_mock_data
+- 03_add_todolist
+- 04_add_hooks
+- 05_apply_hooks
+- 06_complete_todolist

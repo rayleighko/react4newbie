@@ -8,14 +8,19 @@ import IconButton from "@material-ui/core/IconButton";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 
-export default ({ todos }) => (
+export default ({ todos, deleteTodo }) => (
   <List>
     {todos.map((todo, index) => (
       <ListItem key={index.toString()} dense button>
         <Checkbox tabIndex={-1} disableRipple />
         <ListItemText primary={todo} />
         <ListItemSecondaryAction>
-          <IconButton aria-label="Delete">
+          <IconButton
+            aria-label="Delete"
+            onClick={() => {
+              deleteTodo(index);
+            }}
+          >
             <DeleteIcon />
           </IconButton>
         </ListItemSecondaryAction>
